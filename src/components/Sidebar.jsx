@@ -8,7 +8,7 @@ const Sidebar = () => {
           {genreal_section.map((link,index)=>{
             const Icon = link.icon
             return(
-            <li key={index} className={`flex items-center justify-start pl-1 pt-1 text-slate-400 ${index===0 ? 'text-blue-900':'text-slate-400'}`}>
+            <li key={index} className={`flex items-center justify-start pl-1 pt-1 ${index===0 ? 'text-blue-900':'text-slate-400'}`}>
               <Icon className='m-3 lg:m-0'/>
               <span className='hidden md:hidden lg:block p-3 '>{link.label}</span>
             </li>
