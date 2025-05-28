@@ -5,7 +5,7 @@ import CalenderView from './CalenderView'
 
 const DashboardMinContent = () => {
   return (
-    <div className=' absolute top-20 left-[64px] md:absolute md:top-[80px] md:left-[149px] lg:left-[200px] xl:left-[300px] w-4/5 h-[87vh]'>
+    <div className=' absolute top-[80px] left-[64px] md:absolute md:top-[80px] md:left-[149px] lg:left-[200px] xl:left-[300px] w-4/5 h-[110vh] md:h-[87vh]'>
       <DashboardOverview/>
       <ActivityFeed/>
       <CalenderView/>

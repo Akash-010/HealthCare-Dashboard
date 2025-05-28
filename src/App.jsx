@@ -5,7 +5,7 @@ import DashboardMinContent from './components/dashboardmaincontent/DashboardMinC
 
 const App = () => {
   return (
-    <div className=" flex flex-col relative h-[98vh]  mx-3 my-2">
+    <div className=" flex flex-col relative md:h-[98vh]  mx-3 my-2">
       <Header/>
       <Sidebar/>
       <DashboardMinContent/>

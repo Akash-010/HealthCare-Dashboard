@@ -2,7 +2,7 @@ import {genreal_section, setting_section, tools_section} from "../data/navigatio
 
 const Sidebar = () => {
   return (
-    <div className='bg-[#eff4fa] h-[87vh] w-[64px] md:w-1/5 md:pl-[70px] rounded-bl-[30px]'>
+    <div className='bg-[#eff4fa] h-[110vh] md:h-[87vh] w-[64px] md:w-1/5 md:pl-[70px] rounded-bl-[30px]'>
       <h1 className='hidden md:block pt-2 text-slate-300'>General</h1>
         <ul className='h-2/5 w-full'>
           {genreal_section.map((link,index)=>{
@@ -26,7 +26,7 @@ const Sidebar = () => {
             )
           })}
         </ul>
-        <ul className='h-1/5 w-full'>
+        <ul className='h-2/5 w-full'>
           {setting_section.map((link,index)=>{
             const Icon = link.icon
             return (
